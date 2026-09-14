@@ -12,8 +12,10 @@ char *sum_string(char *x, char *y) {
 
   char *buffer = (char *)malloc(total);
 
-  if (buffer == NULL)
+  if (buffer == NULL) {
+    printf("buy more RAM lol");
     return NULL;
+  }
 
   snprintf(buffer, total, "%s%s", x, y);
   return buffer;
