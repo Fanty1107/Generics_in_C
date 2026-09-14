@@ -1,2 +1,2 @@
 default:
-	gcc main.c gen.c -o main
+	gcc main.c gen.c -o T

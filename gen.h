@@ -1,8 +1,5 @@
 #ifndef GENERIC_H
 #define GENERIC_H
-#include <stdio.h>
-
-#define MAX 100
 
 int sum_int(int x, int y);
 float sum_float(float x, float y);
